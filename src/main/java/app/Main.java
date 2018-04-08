@@ -14,6 +14,15 @@ public class Main {
         System.out.println("نتيجة طرح الرقمين تساوي " + getSubtract());
         System.out.println("----------------نهاية عملية الطرح----------------");
 
+
+        System.out.println("---------------- بداية عملية القسمة----------------");
+        System.out.println("نتيجة قسمة الرقمين تساوي " + getDividing());
+        System.out.println("----------------نهاية عملية القسمة----------------");
+
+
+        System.out.println("---------------- بداية عملية الضرب----------------");
+        System.out.println("نتيجة ضرب الرقمين تساوي " + getbeating());
+        System.out.println("----------------نهاية عملية الضرب----------------");
     }
 
     public static double getSum(){
@@ -28,7 +37,7 @@ public class Main {
         return num1 + num2;
     }
 
-    public static double getSubtract(){
+    public static double getSubtract() {
         Scanner input = new Scanner(System.in);
 
         System.out.println("ادخل الرقم الأ,ل:");
@@ -38,5 +47,27 @@ public class Main {
         double num2 = input.nextDouble();
 
         return num1 - num2;
+    }
+
+        public static double getDividing(){
+            Scanner input = new Scanner(System.in);
+
+            System.out.println("ادخل الرقم الأ,ل:");
+            double num1 = input.nextDouble();
+
+            System.out.println("ادخل الرقم الثاني:");
+            double num2 = input.nextDouble();
+            return num1 / num2;
+        }
+
+    public static double getbeating(){
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("ادخل الرقم الأ,ل:");
+        double num1 = input.nextDouble();
+
+        System.out.println("ادخل الرقم الثاني:");
+        double num2 = input.nextDouble();
+        return num1 * num2;
     }
 }
