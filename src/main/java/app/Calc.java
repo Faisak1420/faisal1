@@ -18,16 +18,22 @@ public class Calc {
        \
        *System.out.println(--x);*/
 // تجربة الاعداد  اكبر او اصغر  او اصغر و يساوي او اكبر و يساوي  او الاعداد تساوي بعضها
-       int x = 20;
-       int w = 30;
-        System.out.println(x >= w);
-        System.out.println(x <= w);
-        System.out.println(x == w);
-        System.out.println(x > w);
-        System.out.println(x < w);
-        System.out.println(x >= w);
-        System.out.println(x <= w);
+     /*  int x = 20;
+       *int w = 30;
+        *System.out.println(x >= w);
+        *System.out.println(x <= w);
+        *System.out.println(x == w);
+        *System.out.println(x > w);
+        *System.out.println(x < w);
+        *System.out.println(x >= w);
+        *System.out.println(x <= w);*/
 
+        boolean f = true;
+
+        boolean d = true;
+        System.out.println(f && d );
+        System.out.println(f || d);
+        System.out.println(!( f && d ));
     }
 
 
