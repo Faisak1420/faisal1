@@ -14,9 +14,22 @@ public class Calc {
 
     public static void main(String[] args) {
 
-        int x = 6;
-        System.out.println(--x);
+      /*  int x = 6;
+       \
+       *System.out.println(--x);*/
+// تجربة الاعداد  اكبر او اصغر  او اصغر و يساوي او اكبر و يساوي  او الاعداد تساوي بعضها
+       int x = 20;
+       int w = 30;
+        System.out.println(x >= w);
+        System.out.println(x <= w);
+        System.out.println(x == w);
+        System.out.println(x > w);
+        System.out.println(x < w);
+        System.out.println(x >= w);
+        System.out.println(x <= w);
+
     }
+
 
 
 }
